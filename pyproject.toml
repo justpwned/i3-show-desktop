@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "i3-show-desktop"
+version = "0.1.0"
+description = ""
+authors = ["justpwned <justpwnedfrom@gmail.com>"]
+packages = [
+    { include = "show_desktop" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.9.0"
+i3ipc = "^2.2.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+i3-show-desktop = "show_desktop.scripts.show_desktop:main"
