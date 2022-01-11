@@ -4,6 +4,7 @@ Show desktop in i3. Works by switching to empty workspace on each monitor. These
 ## Build requirements
 - Python 3.9
 - [Poetry](https://python-poetry.org/)
+- Make
 
 ## Installation
 Clone repository and install the package:
