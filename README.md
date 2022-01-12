@@ -1,7 +1,7 @@
 # i3-show-desktop
 Show desktop in i3. Works by changing currently focused worksapce to an empty workspace on each monitor (like a toggle switch). These empty workspaces have to be mapped to monitors in advance.
 
-## Build requirements
+## Build dependencies
 - Python 3.9
 - [Poetry](https://python-poetry.org/)
 - Make
